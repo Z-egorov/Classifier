@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8"/>
+  <script src="classifie.js"></script>
+  <script src="export.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <title>Muzhichki Classifier</title>
+
+</head>
+<body>
+    <div class="name"><a>Muzhichki Classifier</a></div>
+    <div class="container">
+      
+      <input id = "link" type="text" size="42">
+      <button class="search" type="button" onclick="get_theme()">Classifie !</button>
+      <span id="anwser"> </span>
+      <label for="pet-select"></label>
+
+</select>
+
+      <button class="export" type="button" onclick="export_data()">Export data</button>
+      <a href="/home/zhenia/Muzhichki/interface/data.csv" download id="download" hidden></a>
+      <div class="inner">
+
+        <div class="inner_inner">
+          <image id="logo" src="icons/logo.png"/>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

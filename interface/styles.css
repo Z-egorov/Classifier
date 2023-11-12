@@ -1,0 +1,141 @@
+body {
+  background-color: #101010;
+  font-family: "Rubik";
+}
+
+.swal-modal {
+  background-color: #101010;
+  border: 3px solid #2c2c2c;
+}
+
+.swal-text {
+  padding: 17px;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.swal-title {
+  margin: 0px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.21);
+  margin-bottom: 28px;
+  font-size: 40px;
+  color: white;
+}
+
+.select {
+  top: 470px;
+  right: 56px;
+  position: absolute;
+}
+
+span {
+  color: whitesmoke;
+  font-size: 200%;
+  font-weight: 900;
+  right: 78px;
+  top: 300px;
+  position: absolute;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.container_inner {
+  margin-top: 1000px;
+}
+.inner {
+  margin-top: 4%;
+  background-color: #2c2c2c;
+  border-radius: 5%;
+  width: 500px;
+  height: 350px;
+  margin-left: 4%;
+  border: 2px solid #1A1A1A;  
+}
+
+input { 
+  font-size: 120%;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 100px;
+  margin-right: 6%;
+  margin-left: 4%;
+  outline: #1A1A1A;
+}
+
+input:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+img {
+  width: 79%;
+  height: 79%;
+  margin-left: 45px;
+  margin-top: 8px;
+}
+
+button {
+  appearance: none;
+  background-color: #2a2a2a;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+  will-change: transform;
+}
+
+button :disabled {
+  pointer-events: none;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.name {
+  color: white;
+  margin-left: 30%;
+  margin-top: 3%;
+  margin-bottom: -6%;
+  font-size: 200%;
+  font-weight: 900;
+}
+
+
+.export {
+  position: absolute;
+  left: 591px;
+  bottom: 22px;
+}
