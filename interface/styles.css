@@ -78,6 +78,7 @@ img {
   height: 79%;
   margin-left: 45px;
   margin-top: 8px;
+  user-select: none;
 }
 
 button {

@@ -19,7 +19,7 @@ max_len = 35
 nb_classes = 33
 tokenizer = Tokenizer(num_words=num_words)
 
-# model_gru_save_path = r"/home/zhenia/Muzhichki/engine/best_model_gru.h5"
+# model_gru_save_path = r"../engine/best_model_gru.h5"
 
 # model_gru = Sequential()
 # model_gru.add(Embedding(num_words, 32, input_length=max_len))
@@ -32,7 +32,7 @@ tokenizer = Tokenizer(num_words=num_words)
 
 # model_gru.load_weights(model_gru_save_path)
 
-model_gru = keras.models.load_model('/home/zhenia/Muzhichki/engine/GRU_MODEL')
+model_gru = keras.models.load_model('../engine/GRU_MODEL')
 
 def get_words(url):
     resp = requests.get(url)
@@ -92,7 +92,7 @@ def get_theme(argument):
 
 theme = get_theme(np.argmax(result))
 
-f = open("/home/zhenia/Muzhichki/engine/data.txt", 'a')
+f = open("../engine/data.txt", 'a')
 data_to_write = str(usr_link) + ',' + theme + '\n'
 f.write(data_to_write)
 
