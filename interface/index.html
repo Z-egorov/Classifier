@@ -8,26 +8,26 @@
   <script src="classifie.js"></script>
   <script src="export.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <title>Muzhichki Classifier</title>
+  <title>Text Classifier</title>
 
 </head>
 <body>
-    <div class="name"><a>Muzhichki Classifier</a></div>
+    <div class="name"><a>Text Classifier</a></div>
+    <button class="help" type="button" onclick="window.open('https://github.com/Z-egorov/Text-Classifier/blob/main/README.md')">Help!</button>
+    <image class="logo" src="../interface/icons/logo.png"/>
     <div class="container">
       
       <input id = "link" type="text" size="42">
       <button class="search" type="button" onclick="get_theme()">Classifie !</button>
-      <span id="anwser"> </span>
       <label for="pet-select"></label>
 
 </select>
 
-      <button class="export" type="button" onclick="export_data()">Export data</button>
-      <a href="/home/zhenia/Muzhichki/interface/data.csv" download id="download" hidden></a>
+      <button class="export" type="button" onclick="export_data()"><img class="export_image" src="..\interface\icons\export.png"></button>
+      <a href="../interface/data.csv" download id="download" hidden></a>
       <div class="inner">
-
         <div class="inner_inner">
-          <image id="logo" src="icons/logo.png"/>
+          <span class="anwser_class" id="anwser"> </span>
         </div>
       </div>
     </div>
