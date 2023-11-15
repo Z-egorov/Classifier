@@ -20,7 +20,7 @@ function export_data() {
 
     shell.end(function (err) {
         if (err){
-            document.getElementById("anwser").textContent = "ERROR";
+            document.getElementById("anwser").textContent = "ERROR. Failed to export";
             throw err;
         };
       });
