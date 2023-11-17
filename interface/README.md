@@ -1,41 +1,75 @@
-# electron-quick-start
+<p align="center">
+  <a href="https://github.com/Z-egorov/Text-Classifier/"><img width="300" src="https://github.com/Z-egorov/Text-Classifier/blob/test/interface/icons/logo.png">
+</p>
+    
+# <p align="center">**КЛАССИФИКАТОР ТЕКСТА**</p>
+<div align="center">
 
-**Clone and run for a quick way to see Electron in action.**
+Программа-классификатор для **ваших** текстов
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start) within the Electron documentation.
+---
 
-A basic Electron application needs just these files:
+| **Ключевые особенности** | **Описания** |
+| ------------- | ------------- |
+| **Простой интерфейс** | Минималистичный и удобный UI |
+| **Точность** | Максимально точная классификация текста. |
+| **Скорость** | Быстрая работа для обработки больших текстов |
+| **Гибкость** | Идеальная адаптация к новым данным |
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+<div align="left">
+  
+---
 
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start).
+## Содержание 
 
-## To Use
+1. [Установка и запуск](#Установка-и-запуск)
+1. [Работа с программой](#Работа-с-программой)
+  * [Пользовательский Интерфейс](Пользовательский-Интерфейс)
+  * [Алгоритм работы с программой](Алгоритм-работы-с-программой)
+1. [Использованные библиотеки](#Использованные-библиотеки)
+  
+---
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## Установка и запуск
 
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
-npm install
-# Run the app
-npm start
-```
+* Скачайте .zip архив с программой из <a href="https://github.com/Z-egorov/Text-Classifier/tree/main">главной ветки проекта
+* Разархивируйте архив в удобное вам место
+* Запустите файл .exe из разархивированной папки
+* Пользуйтесь программой
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+---
 
-## Resources for Learning Electron
+## Работа с программой
+### Пользовательский Интерфейс
+* Всё взаимодействие с классификатором происходит через Пользовательский Интерфейс (UI):
+<img width="500" src="https://github.com/Z-egorov/Text-Classifier/blob/test/interface/icons/UI_KNOPKI.png">
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
+* Help! (1) открывает в браузере пользователя ссылку с инструкцией по работе с программой
+* Кнопка Import (2) открывает проводник, где пользователь должен импортировать тексты в папку docs, а темы в папку themes
+* Classify! (3) запускает классификацию
+* Кнопка Export (4) экспортирует полученные отклассифицированные данные
+* Окно (5) оповещает о статусе работы программы
 
-## License
+###  Алгоритм работы с программой
+* Зайти в программу
+* Импортировать документы и темы
+* Нажать на кнопку Classify!
+* Дождаться вывода результата
+* Экспортировать результат в удобное место
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+---
+
+## Использованные библиотеки:
+### Python:
+* os
+* re
+* pathlib
+* pymorphy2
+* shutil
+### C++:
+* sstream
+* string
+* vector
+* cmath
+* map
+* algorithm
