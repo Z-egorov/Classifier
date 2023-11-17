@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <a href="https://github.com/Z-egorov/Text-Classifier/"><img width="300" src="https://github.com/Z-egorov/Text-Classifier/blob/test/interface/icons/logo.png">
 </p>
@@ -73,3 +74,6 @@
 * cmath
 * map
 * algorithm
+=======
+# Classifier
+>>>>>>> origin/main

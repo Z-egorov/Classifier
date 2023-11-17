@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules/
 node*
 tasks/test
@@ -10,3 +11,6 @@ result.txt
 engine/task1
 engine/data/docs/
 engine/data/themes/
+=======
+/node_modules/
+>>>>>>> origin/main
