@@ -1,3 +1,12 @@
 node_modules/
 node*
 tasks/test
+.vscode/
+tasks/data
+tasks/task1
+classification.txt
+classifie.exe
+result.txt
+engine/task1
+engine/data/docs/
+engine/data/themes/

@@ -173,10 +173,11 @@ button:active {
   height: 50px;
 }
 .anwser_class {
-  left: 300px;
-  top: 300px
+  left: 150px;
+  top: 200px
 }
 .search {
+  font-size: 150%;
   position: absolute;
   right: 330px;
   top: 100px;
