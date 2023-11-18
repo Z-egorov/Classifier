@@ -51,6 +51,8 @@
 * Кнопка Export (4) экспортирует полученные отклассифицированные данные
 * Окно (5) оповещает о статусе работы программы
 
+!! Результаты работы алгоритма подсчёта слов Вы можете найти в папке engine/task1 !!
+
 ###  Алгоритм работы с программой
 * Зайти в программу
 * Импортировать документы и темы
@@ -65,15 +67,21 @@
 * os
 * re
 * pathlib
-* pymorphy2
+* pymorphy3
 * shutil
-### C++:
-* sstream
-* string
-* vector
-* cmath
-* map
-* algorithm
+  
+### ( Для разработчиков ):
+  * Electronjs
+  * Nodejs ( + npm )
+  * npm python-shell
+  * npm electron-dl
+  * npm electron --save-dev
+  * npm install electron-packager --save-dev
+
 =======
-# Classifier
->>>>>>> origin/main
+## Как собрать приложение?:
+  Для этого вам понадобится nodejs и npm. Установите необходимое из графы "для разработчиков".
+  Чтобы собрать приложение в exe файл - вам необходимо ввести в терминал 
+  electron-packager <sourcedir> <appname> --platform=win32 --arch=x86_64
+  , где sourcedir - папка к исходному коду, а appname - имя будущего собранного приложения.
+
